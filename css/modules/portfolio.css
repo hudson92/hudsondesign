@@ -1,0 +1,9 @@
+
+.hide {
+	opacity:0;
+}
+
+.portfolio-card:hover .hide {
+opacity: 1;
+transition: 0.5s;
+}
