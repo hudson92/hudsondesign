@@ -1,0 +1,93 @@
+[20-Dec-2019 22:27:39 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 8
+[20-Dec-2019 22:27:40 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 8
+[20-Dec-2019 22:28:00 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 8
+[20-Dec-2019 22:28:00 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 8
+[20-Dec-2019 22:28:05 UTC] PHP Parse error:  syntax error, unexpected 'null' (T_STRING), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 8
+[20-Dec-2019 22:28:06 UTC] PHP Parse error:  syntax error, unexpected 'null' (T_STRING), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 8
+[20-Dec-2019 22:28:14 UTC] PHP Parse error:  syntax error, unexpected 'NULL' (T_STRING), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 8
+[20-Dec-2019 22:28:15 UTC] PHP Parse error:  syntax error, unexpected 'NULL' (T_STRING), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 8
+[20-Dec-2019 22:46:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 4
+[20-Dec-2019 22:47:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_tite() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 4
+[20-Dec-2019 22:47:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_tite() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 4
+[20-Dec-2019 22:47:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_the_title() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 4
+[20-Dec-2019 22:47:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_the_title() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 4
+[20-Dec-2019 22:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_the_title() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 4
+[20-Dec-2019 22:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_the_title() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 4
+[20-Dec-2019 22:47:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp__title() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 4
+[20-Dec-2019 22:58:11 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 16
+[20-Dec-2019 23:12:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php on line 65
+[20-Dec-2019 23:12:35 UTC] PHP Stack trace:
+[20-Dec-2019 23:12:35 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/options-general.php:0
+[20-Dec-2019 23:12:35 UTC] PHP   2. wp_get_available_translations() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/options-general.php:158
+[20-Dec-2019 23:12:35 UTC] PHP   3. translations_api() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php:126
+[20-Dec-2019 23:12:35 UTC] PHP   4. trigger_error() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php:65
+[20-Dec-2019 23:12:46 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php on line 65
+[20-Dec-2019 23:12:46 UTC] PHP Stack trace:
+[20-Dec-2019 23:12:46 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/options-general.php:0
+[20-Dec-2019 23:12:46 UTC] PHP   2. wp_get_available_translations() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/options-general.php:158
+[20-Dec-2019 23:12:46 UTC] PHP   3. translations_api() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php:126
+[20-Dec-2019 23:12:46 UTC] PHP   4. trigger_error() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php:65
+[20-Dec-2019 23:16:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 114
+[20-Dec-2019 23:17:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 113
+[20-Dec-2019 23:18:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 112
+[20-Dec-2019 23:18:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 112
+[20-Dec-2019 23:18:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 112
+[20-Dec-2019 23:18:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 110
+[20-Dec-2019 23:18:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 112
+[20-Dec-2019 23:20:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php on line 65
+[20-Dec-2019 23:20:32 UTC] PHP Stack trace:
+[20-Dec-2019 23:20:32 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/options-general.php:0
+[20-Dec-2019 23:20:32 UTC] PHP   2. wp_get_available_translations() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/options-general.php:158
+[20-Dec-2019 23:20:32 UTC] PHP   3. translations_api() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php:126
+[20-Dec-2019 23:20:32 UTC] PHP   4. trigger_error() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/translation-install.php:65
+[20-Dec-2019 23:21:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/update.php on line 137
+[20-Dec-2019 23:21:25 UTC] PHP Stack trace:
+[20-Dec-2019 23:21:25 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/update-core.php:0
+[20-Dec-2019 23:21:25 UTC] PHP   2. do_core_upgrade() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/update-core.php:748
+[20-Dec-2019 23:21:25 UTC] PHP   3. Core_Upgrader->upgrade() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/update-core.php:563
+[20-Dec-2019 23:21:25 UTC] PHP   4. Core_Upgrader->check_files() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/class-core-upgrader.php:95
+[20-Dec-2019 23:21:25 UTC] PHP   5. get_core_checksums() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/class-core-upgrader.php:388
+[20-Dec-2019 23:21:25 UTC] PHP   6. trigger_error() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/update.php:137
+[20-Dec-2019 23:42:10 UTC] PHP Parse error:  syntax error, unexpected ''menu_class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php on line 24

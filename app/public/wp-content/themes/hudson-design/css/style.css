@@ -1,0 +1,5 @@
+@import "base/base-styles.css";
+@import "modules/portfolio.css";
+@import "modules/skills.css";
+@import "modules/nav.css";
+@import "modules/footer.css";

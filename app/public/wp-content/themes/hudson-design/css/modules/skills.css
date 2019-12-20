@@ -1,0 +1,8 @@
+@media only screen and (min-width: 768px){
+.skills-card:nth-child(1) {
+margin-right: 1rem;
+}
+.skills-card:nth-child(3) {
+margin-left: 1rem;
+}
+}
