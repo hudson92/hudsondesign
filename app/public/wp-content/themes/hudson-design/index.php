@@ -58,7 +58,7 @@
 </div>
 <div class="container contact-form" id="contact">
 	<form class="mt-5">
-  	<h2 class="text-dark text-center">Get in touch</h2>
+  	<h2 class="text-center">Get in touch</h2>
   	<div class="form-group">
   		<label for="contactName">Name</label>
   		<input type="text" class="form-control" id="contactName" placeholder="Insert name here">
@@ -77,7 +77,7 @@
   </form>
 </div>
 </div>
-<footer class="bg-dark d-flex justify-content-center mt-auto pt-3 text-light"><p>&copy; 2019 - Hudson Web Design</p></footer>
+<footer class="bg-dark d-flex justify-content-center mt-auto pt-3"><p>&copy; 2019 - Hudson Web Design</p></footer>
 <?php wp_footer(); ?>
 </body>
 </html>

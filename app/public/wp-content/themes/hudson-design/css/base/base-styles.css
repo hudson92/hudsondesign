@@ -2,30 +2,50 @@ html {
 	scroll-behavior: smooth;
 }
 
-h1 {
+$light-blue: #91B3BC;
+$dark-blue: #5B7D87;
+$purple: #45415E;
+$grey: #2B4251;
+$black: #2E323C;
+$white: #f0f0f0;
 
+h1 {
+color: $purple;
 }
 
 h2 {
-
+color: $dark-blue;
 }
 
 h3 {
-
+color: $grey;
 }
 
 h4 {
-
+color: $grey;
 }
 
-.text-light{}
 
-.text-dark {}
-
-p {}
+p {
+	color: $black;
+}
 
 a {
+	color: $purple;
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: $light-blue;
+}
+
+.white {
+	color: $white;
+}
+
+.bg-dark {
+	background-color: $dark-blue;
 }
 
 .primary {
@@ -50,6 +70,14 @@ a {
 
 .tertiary {
 
+}
+
+.btn-primary {
+	background-color: $light-blue;
+}
+
+.btn-primary:hover {
+	background-color: $dark-blue;
 }
 
 .section-title {

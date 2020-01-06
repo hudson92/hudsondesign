@@ -3,29 +3,41 @@ html {
 }
 
 h1 {
-
+color: #45415E;
 }
 
 h2 {
-
+color: #5B7D87;
 }
 
 h3 {
-
+color: #2B4251;
 }
 
 h4 {
-
+color: #2B4251;
 }
 
-.text-light{}
-
-.text-dark {}
-
-p {}
+p {
+	color: #2E323C;
+}
 
 a {
+	color: #45415E;
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #91B3BC;
+}
+
+.white {
+	color: #f0f0f0;
+}
+
+.bg-dark {
+	background-color: #5B7D87;
 }
 
 .primary {
@@ -52,6 +64,14 @@ a {
 
 }
 
+.btn-primary {
+	background-color: #91B3BC;
+}
+
+.btn-primary:hover {
+	background-color: #5B7D87;
+}
+
 .section-title {
 	margin-bottom: 1.5rem;
 }
@@ -76,6 +96,16 @@ margin-left: 1rem;
 }
 
 .navbar-nav a {
-	color: #c0c0c0;
+	color: #91B3BC;
 	margin-right: 1rem;
+}
+
+.navbar {
+	background-color: #2B4251;
+	opacity: 0.8;
+}
+
+.navbar-nav a:hover {
+	color: #f0f0f0;
+	text-decoration: none;
 }

@@ -1,4 +1,14 @@
 .navbar-nav a {
-	color: #c0c0c0;
+	color: #91B3BC;
 	margin-right: 1rem;
+}
+
+.navbar {
+	background-color: #2B4251;
+	opacity: 0.8;
+}
+
+.navbar-nav a:hover {
+	color: #f0f0f0;
+	text-decoration: none;
 }
