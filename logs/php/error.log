@@ -91,3 +91,13 @@ Stack trace:
 [20-Dec-2019 23:21:25 UTC] PHP   5. get_core_checksums() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/class-core-upgrader.php:388
 [20-Dec-2019 23:21:25 UTC] PHP   6. trigger_error() /Users/samhudson/Local Sites/hudson-design/app/public/wp-admin/includes/update.php:137
 [20-Dec-2019 23:42:10 UTC] PHP Parse error:  syntax error, unexpected ''menu_class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php on line 24
+[07-Jan-2020 22:15:21 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_scripts' (T_STRING), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 14
+[07-Jan-2020 22:24:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/mu-plugins/hd-post-types.php on line 17
+[07-Jan-2020 22:46:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_thumbail() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php:22
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php on line 22
+[07-Jan-2020 22:50:23 UTC] PHP Parse error:  syntax error, unexpected 'Card' (T_STRING) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php on line 22

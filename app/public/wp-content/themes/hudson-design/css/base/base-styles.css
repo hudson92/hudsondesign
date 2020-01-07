@@ -11,23 +11,30 @@ $white: #f0f0f0;
 
 h1 {
 color: $purple;
+font-family: Amiko, Helvetica, sans-serif;
+font-weight: bold;
 }
 
 h2 {
 color: $dark-blue;
+font-family: Amiko, Helvetica, sans-serif;
+font-weight: bold;
 }
 
 h3 {
 color: $grey;
+font-family: Amiko, Helvetica, sans-serif;
 }
 
 h4 {
 color: $grey;
+font-family: Amiko, Helvetica, sans-serif;
 }
 
 
 p {
-	color: $black;
+color: $black;
+font-family: Amiko, Helvetica, sans-serif;
 }
 
 a {
@@ -38,6 +45,13 @@ a {
 a:hover {
 	text-decoration: underline;
 	color: $light-blue;
+}
+
+hr {
+	background-color: $black;
+	border: none;
+	height: 2px;
+
 }
 
 .white {
@@ -74,6 +88,7 @@ a:hover {
 
 .btn-primary {
 	background-color: $light-blue;
+	border: none;
 }
 
 .btn-primary:hover {

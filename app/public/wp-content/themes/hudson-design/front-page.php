@@ -1,38 +1,39 @@
 <?php
   get_header();
+
+  get_template_part('template-parts/header-slider'); 
 ?>
+
 <div class="container-fluid mt-5 mb-5" id="skills">
 
 	<h2 class="text-center section-title">Skills</h2>
 
 <div class="d-flex justify-content-center row">
-	<div class="col-md-3 card skills-card p-0 border-0">
-		<img class="card-img-top" src="<?php echo get_theme_file_uri('images/back3.png') ?>" alt="Card image" />
+	<?php 
+		$skills = new WP_Query(array(
+			'posts_per_page' => -1,
+			'post_type' => 'skills',
+		));
+
+		while($skills->have_posts()) {
+			$skills->the_post();?>
+		
+		<div class="col-md-3 card skills-card border-0">
+		<img class="card-img-top" src="<?php the_post_thumbnail();?>" alt="Card image" />
 		<div class="card-body">
-		<h3 class="text-center">Heading text</h3>
-		<p>Here is some dummy copy for this text section. Doesn't it look nice and nea like this...</p>
+		<h3><?php the_title(); ?></h3>
+		<p><?php the_excerpt(); ?></p>
 		<p><a href="#" class="btn btn-default btn-md pl-0">Find out more</a></p>
-	</div>
-	</div>
-	<div class="col-md-3 card skills-card p-0 border-0">
-		<img class="card-img-top" src="<?php echo get_theme_file_uri('images/back3.png') ?>" alt="Card image" />
-		<div class="card-body">
-		<h3>Heading text</h3>
-		<p>Here is some dummy copy for this text section. Doesn't it look nice and nea like this...</p>
-		<p><a href="#" class="btn btn-default btn-md pl-0">Find out more</a></p>
-	</div>
-	</div>
-	<div class="col-md-3 card skills-card p-0 border-0">
-		<img class="card-img-top" src="<?php echo get_theme_file_uri('images/back3.png') ?>" alt="Card image" />
-		<div class="card-body">
-		<h3>Heading text</h3>
-		<p>Here is some dummy copy for this text section. Doesn't it look nice and nea like this...</p>
-		<p><a href="#" class="btn btn-default btn-md pl-0">Find out more</a></p>
-	</div>
-	</div>
+		</div>
+		</div>
+
+
+		<?php } wp_reset_postdata();
+		?>
+
 </div>
 </div>
-<div class="container-fluid mt-5 mb-5 pt-5 pb-5 bg-dark" id="portfolio">
+<div class="container-fluid mt-5 mb-5 pt-5 pb-5" id="portfolio">
 
 	<h2 class="text-center section-title">Portfolio</h2>
 
@@ -68,7 +69,8 @@
   <img class="d-flex mr-3" src="<?php echo get_theme_file_uri('images/LogoHDonly.png')?>" alt="Generic placeholder image">
   <div class="media-body mb-5">
     <h3 class="mt-0">About me</h3>
-    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    <p>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
   </div>
 </div>
 <div class="container contact-form" id="contact">
@@ -92,7 +94,9 @@
   </form>
 </div>
 </div>
-<footer class="bg-dark d-flex justify-content-center mt-auto pt-3"><p class="white">&copy; 2019 - Hudson Web Design</p></footer>
-<?php wp_footer(); ?>
+<?php
+get_template_part('template-parts/footer-copywright'); 
+wp_footer(); 
+?>
 </body>
 </html>

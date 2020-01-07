@@ -1,0 +1,1 @@
+<footer class="bg-dark d-flex justify-content-center mt-auto pt-3"><p class="white">&copy; 2019 - Hudson Web Design</p></footer>

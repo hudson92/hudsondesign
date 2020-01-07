@@ -1,3 +1,11 @@
+#portfolio {
+	background-color: $black;
+}
+
+#portfolio h2 {
+	color: #f0f0f0;
+}
+
 .hide {
 	opacity:0;
 }

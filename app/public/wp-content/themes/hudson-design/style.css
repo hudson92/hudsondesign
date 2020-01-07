@@ -4,22 +4,29 @@ html {
 
 h1 {
 color: #45415E;
+font-family: Amiko, Helvetica, sans-serif;
+font-weight: bold;
 }
 
 h2 {
 color: #5B7D87;
+font-family: Amiko, Helvetica, sans-serif;
+font-weight: bold;
 }
 
 h3 {
 color: #2B4251;
+font-family: Amiko, Helvetica, sans-serif;
 }
 
 h4 {
 color: #2B4251;
+font-family: Amiko, Helvetica, sans-serif;
 }
 
 p {
-	color: #2E323C;
+color: #2E323C;
+font-family: Amiko, Helvetica, sans-serif;
 }
 
 a {
@@ -30,6 +37,13 @@ a {
 a:hover {
 	text-decoration: underline;
 	color: #91B3BC;
+}
+
+hr {
+	background-color: #2E323C;
+	border: none;
+	height: 2px;
+
 }
 
 .white {
@@ -66,6 +80,7 @@ a:hover {
 
 .btn-primary {
 	background-color: #91B3BC;
+	border: none;
 }
 
 .btn-primary:hover {
@@ -74,6 +89,14 @@ a:hover {
 
 .section-title {
 	margin-bottom: 1.5rem;
+}
+
+#portfolio {
+	background-color: #2E323C;
+}
+
+#portfolio h2 {
+	color: #f0f0f0;
 }
 
 .hide {
@@ -102,7 +125,6 @@ margin-left: 1rem;
 
 .navbar {
 	background-color: #2B4251;
-	opacity: 0.8;
 }
 
 .navbar-nav a:hover {

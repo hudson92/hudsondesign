@@ -1,53 +1,23 @@
 <?php
   get_header();
 ?>
-	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="<?php echo get_theme_file_uri('/images/back1.png') ?>" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo get_theme_file_uri('images/back2.png') ?>" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo get_theme_file_uri('images/back3.png') ?>" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div> 
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+<header>
+  Insert header here
 </header>
-<div class="container-fluid mt-5 mb-5">
+<div class="container-fluid mt-5 pt-5 ml-4 mr-4 mb-5">
 <?php 
   while(have_posts()) {
     the_post();?>
     <div class="container">
       <h2><?php the_title(); ?></h2>
       <p><?php the_content(); ?></p>
-      <a class="btn btn-default btn-md" href="<?php the_permalink(); ?>">Read more</a>
+      <a class="btn btn-primary btn-md" href="<?php the_permalink(); ?>">Read more</a>
     </div>
 	<?php }
   echo paginate_links();
   ?>
 </div>
+<hr>
 <div class="container mt-5 mb-5 pl-5 pr-5" id="about">
 <div class="media">
   <img class="d-flex mr-3" src="<?php echo get_theme_file_uri('images/LogoHDonly.png')?>" alt="Generic placeholder image">
@@ -77,7 +47,8 @@
   </form>
 </div>
 </div>
-<footer class="bg-dark d-flex justify-content-center mt-auto pt-3"><p>&copy; 2019 - Hudson Web Design</p></footer>
-<?php wp_footer(); ?>
-</body>
+<?php
+get_template_part('template-parts/footer-copywright'); 
+wp_footer(); 
+?></body>
 </html>
