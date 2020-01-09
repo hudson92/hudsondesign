@@ -4,7 +4,7 @@
 <header>
   Insert header here
 </header>
-<div class="container-fluid mt-5 pt-5 ml-4 mr-4 mb-5">
+<div class="container-fluid mt-5 pt-5 ml-5 mr-5 mb-5">
 <?php 
   while(have_posts()) {
     the_post();?>
@@ -13,17 +13,19 @@
       <p><?php the_content(); ?></p>
       <a class="btn btn-primary btn-md" href="<?php the_permalink(); ?>">Read more</a>
     </div>
-	<?php }
+	<?php } 
   echo paginate_links();
+  wp_reset_postdata();
   ?>
 </div>
 <hr>
 <div class="container mt-5 mb-5 pl-5 pr-5" id="about">
+
+  <h2 class="mt-0 text-center"><?php echo get_the_title( 8 ); ?></h2>
 <div class="media">
   <img class="d-flex mr-3" src="<?php echo get_theme_file_uri('images/LogoHDonly.png')?>" alt="Generic placeholder image">
   <div class="media-body mb-5">
-    <h3 class="mt-0">About me</h3>
-    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    <?php echo get_the_content($post = 8); ?>
   </div>
 </div>
 <div class="container contact-form" id="contact">

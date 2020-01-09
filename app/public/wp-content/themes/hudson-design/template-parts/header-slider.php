@@ -1,28 +1,30 @@
 <header>
-	<div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="<?php echo get_theme_file_uri('/images/back1.png') ?>" class="d-block w-100" alt="...">
+
+    <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+      <div class="carousel-inner">
+    <?php
+      $sliderPost = new WP_Query(array(
+        'posts_per_page' => -1,
+        'post_type' => 'slider',
+        'orderby' => 'publish_date',
+        'order' => 'ASC',
+      ));
+
+      while ($sliderPost->have_posts()) {
+        $sliderPost->the_post(); ?>
+
+
+    <div class="carousel-item <?php echo $sliderPost->current_post >= 1 ? '' : 'active'; ?>">
+      <?php echo get_the_post_thumbnail($post_id, 'imageSlider', array('class' => 'd-block w-100')); ?>
         <div class="carousel-caption d-none d-md-block">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3><?php the_title(); ?></h3>
+          <p><?php the_excerpt(); ?></p>
         </div>
     </div>
-    <div class="carousel-item">
-      <img src="<?php echo get_theme_file_uri('images/back2.png') ?>" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo get_theme_file_uri('images/back3.png') ?>" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div> 
-    </div>
+    <?php } wp_reset_postdata();
+    ?>
   </div>
+
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -31,5 +33,6 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+
 </div>
 </header>

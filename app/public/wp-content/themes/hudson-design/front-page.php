@@ -19,11 +19,10 @@
 			$skills->the_post();?>
 		
 		<div class="col-md-3 card skills-card border-0">
-		<img class="card-img-top" src="<?php the_post_thumbnail();?>" alt="Card image" />
-		<div class="card-body">
-		<h3><?php the_title(); ?></h3>
+		<div class="card-img-top"><?php the_post_thumbnail();?></div>
+		<div class="card-body p-1">
+		<h3 style="text-align: center;"><?php the_title(); ?></h3>
 		<p><?php the_excerpt(); ?></p>
-		<p><a href="#" class="btn btn-default btn-md pl-0">Find out more</a></p>
 		</div>
 		</div>
 
@@ -38,39 +37,36 @@
 	<h2 class="text-center section-title">Portfolio</h2>
 
 <div class="d-flex justify-content-center row">
+
+	<?php $portfolio = new WP_Query(array(
+		'posts_per_page' => -1,
+		'post_type' => 'portfolio',
+		'orderby' => 'publish_date',
+		'order' => 'DESC',
+	));
+
+		while ($portfolio->have_posts()) {
+			$portfolio->the_post();?>
+
 	<div class="col-md-3 card portfolio-card p-0 m-0 border-0 rounded-0">
-		<img class="card-img" src="<?php echo get_theme_file_uri('images/overlay.png') ?>" alt="Card image" />
+		<?php echo get_the_post_thumbnail($post_id, 'imagePortfolio', array('class' => 'card-img')); ?>
 			<div class="card-img-overlay hide pt-4">
-			<h3>Heading text</h3><p>Here is some dummy copy for this text section. Doesn't it look nice and nea like this...</p>
-			<p><a href="#" class="btn btn-primary btn-md">Find out more</a></p>
+			<h3><?php the_title(); ?></h3>
+			<p><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
+			<p><a href="<?php echo get_the_permalink(); ?>" class="btn btn-primary btn-md">Find out more</a></p>
 			</div>
 	</div>
-	<div class="col-md-3 card portfolio-card p-0 m-0 border-0 rounded-0">
-    <img class="card-img" src="<?php echo get_theme_file_uri('images/overlay.png') ?>" alt="Card image" />
-			<div class="card-img-overlay hide pt-4">
-			<h3>Heading text</h3>
-			<p>Here is some dummy copy for this text section. Doesn't it look nice and nea like this...</p>
-			<p><a href="#" class="btn btn-primary btn-md">Find out more</a></p>
-			</div>
-	</div>
-	<div class="col-md-3 card portfolio-card p-0 m-0 border-0 rounded-0">
-    <img class="card-img" src="<?php echo get_theme_file_uri('images/overlay.png') ?>" alt="Card image" />
-			<div class="card-img-overlay hide pt-4">
-			<h3>Heading text</h3>
-			<p>Here is some dummy copy for this text section. Doesn't it look nice and nea like this...</p>
-			<p><a href="#" class="btn btn-primary btn-md">Find out more</a></p>
-			</div>
-	
-	</div>
+<?php } wp_reset_postdata();
+?>
+
 </div>
 </div>
 <div class="container mt-5 mb-5 pl-5 pr-5" id="about">
+    <h2 class="text-center"><?php the_title(); ?></h2>
 <div class="media">
-  <img class="d-flex mr-3" src="<?php echo get_theme_file_uri('images/LogoHDonly.png')?>" alt="Generic placeholder image">
+  <?php echo get_the_post_thumbnail( '', '', array('class' => 'd-flex mr-3 mt-0')); ?>
   <div class="media-body mb-5">
-    <h3 class="mt-0">About me</h3>
-    <p>
-    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+    <p><?php the_content(); ?></p>
   </div>
 </div>
 <div class="container contact-form" id="contact">

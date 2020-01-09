@@ -1,3 +1,7 @@
+* {
+	border-radius: 0 !important;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -24,6 +28,7 @@ font-weight: bold;
 h3 {
 color: $grey;
 font-family: Amiko, Helvetica, sans-serif;
+font-size: 1.3rem;
 }
 
 h4 {
@@ -60,30 +65,6 @@ hr {
 
 .bg-dark {
 	background-color: $dark-blue;
-}
-
-.primary {
-
-}
-
-.bg-primary {
-
-}
-
-.bg-secondary {
-
-}
-
-.secondary {
-
-}
-
-.bg-tertiary {
-
-}
-
-.tertiary {
-
 }
 
 .btn-primary {

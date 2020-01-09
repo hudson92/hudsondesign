@@ -18,7 +18,17 @@ function hudsondesign_features() {
 	register_nav_menu('footerLocationOne', 'Footer Location One');
 	add_theme_support('title-tag');
 	add_image_size('skillThumb' , 250, 200, true);
+	add_image_size('imageSlider', 1500, 500, true);
+	add_image_size('imagePortfolio', 355, 230, true);
 	add_theme_support('post-thumbnails');
 }
 
 add_action('after_setup_theme', 'hudsondesign_features');
+
+function admin_bar(){
+
+  if(is_user_logged_in()){
+    add_filter( 'show_admin_bar', '__return_true' , 1000 );
+  }
+}
+add_action('init', 'admin_bar' );

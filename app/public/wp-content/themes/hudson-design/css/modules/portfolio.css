@@ -14,3 +14,8 @@
 opacity: 1;
 transition: 0.5s;
 }
+
+.portfolio-card:hover .card-img {
+	opacity: 0;
+	transition: 0.5s;
+}
