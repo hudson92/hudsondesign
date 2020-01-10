@@ -21,32 +21,18 @@
 <hr>
 <div class="container mt-5 mb-5 pl-5 pr-5" id="about">
 
-  <h2 class="mt-0 text-center"><?php echo get_the_title( 8 ); ?></h2>
+<?php $aboutMe = get_post( 8 );?>
+
+  <h2 class="mt-0 text-center"><?php echo get_the_title( $aboutMe ); ?></h2>
 <div class="media">
-  <img class="d-flex mr-3" src="<?php echo get_theme_file_uri('images/LogoHDonly.png')?>" alt="Generic placeholder image">
+  <?php echo get_the_post_thumbnail($aboutMe, '', array('class' => 'd-flex mr-3')); ?>
   <div class="media-body mb-5">
-    <?php echo get_the_content($post = 8); ?>
+    <?php echo $aboutMe->post_content; ?>
   </div>
 </div>
 <div class="container contact-form" id="contact">
-	<form class="mt-5">
-  	<h2 class="text-center">Get in touch</h2>
-  	<div class="form-group">
-  		<label for="contactName">Name</label>
-  		<input type="text" class="form-control" id="contactName" placeholder="Insert name here">
-  	</div>
-  	<div class="form-group">
-  		<label for="contactEmail">Email</label>
-  		<input type="text" class="form-control" id="contactEmail" placeholder="Insert email here">
-  	</div>
-  	<div class="form-group">
-  		<label for="contactMessage">Message</label>
-  		<input type="text" size="300" class="form-control" id="contactMessage" placeholder="Insert message here">
-  	</div>
-  	<div class="form-group">
-  		<input type="submit" class="form-control" id="contactSubmit" value="Submit">
-  	</div>
-  </form>
+    <h2 class="text-center">Get in touch</h2>
+    <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form"]' ); ?>
 </div>
 </div>
 <?php

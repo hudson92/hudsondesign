@@ -61,7 +61,7 @@
 
 </div>
 </div>
-<div class="container mt-5 mb-5 pl-5 pr-5" id="about">
+<div class="container mt-5 mb-5 pl-3 pr-3" id="about">
     <h2 class="text-center"><?php the_title(); ?></h2>
 <div class="media">
   <?php echo get_the_post_thumbnail( '', '', array('class' => 'd-flex mr-3 mt-0')); ?>
@@ -70,24 +70,8 @@
   </div>
 </div>
 <div class="container contact-form" id="contact">
-	<form class="mt-5">
-  	<h2 class="text-center">Get in touch</h2>
-  	<div class="form-group">
-  		<label for="contactName">Name</label>
-  		<input type="text" class="form-control" id="contactName" placeholder="Insert name here">
-  	</div>
-  	<div class="form-group">
-  		<label for="contactEmail">Email</label>
-  		<input type="text" class="form-control" id="contactEmail" placeholder="Insert email here">
-  	</div>
-  	<div class="form-group">
-  		<label for="contactMessage">Message</label>
-  		<input type="text" size="300" class="form-control" id="contactMessage" placeholder="Insert message here">
-  	</div>
-  	<div class="form-group">
-  		<input type="submit" class="form-control" id="contactSubmit" value="Submit">
-  	</div>
-  </form>
+    <h2 class="text-center">Get in touch</h2>
+    <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form"]' ); ?>
 </div>
 </div>
 <?php

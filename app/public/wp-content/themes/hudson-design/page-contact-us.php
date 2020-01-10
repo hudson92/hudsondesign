@@ -8,7 +8,6 @@
       <div class="jumbotron jumbotron-fluid mt-5">
         <div class="container">
           <h1 class="display-3"><?php the_title(); ?></h1>
-          <p class="lead white"><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
         </div>
       </div>
 </header>
@@ -17,7 +16,7 @@
     <div class="container mb-5">
       <p><?php the_content(); ?></p>
     </div>
-	<?php } wp_reset_postdata(); ?>
+	<?php } ?>
 </div>
 <hr>
 <div class="container mt-5 mb-5 pl-5 pr-5" id="about">
@@ -29,13 +28,7 @@
   <?php echo get_the_post_thumbnail($aboutMe, '', array('class' => 'd-flex mr-3')); ?>
   <div class="media-body mb-5">
     <?php echo $aboutMe->post_content; ?>
-    <?php wp_reset_postdata(); ?>
   </div>
-</div>
-
-<div class="container contact-form" id="contact">
-    <h2 class="text-center">Get in touch</h2>
-    <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form"]' ); ?>
 </div>
 </div>
 <?php

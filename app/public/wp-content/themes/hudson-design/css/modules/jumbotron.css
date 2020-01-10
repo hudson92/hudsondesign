@@ -1,0 +1,10 @@
+$light-blue: #91B3BC;
+$dark-blue: #5B7D87;
+$purple: #45415E;
+$grey: #2B4251;
+$black: #2E323C;
+$white: #f0f0f0;
+
+.jumbotron {
+	background-color: $light-blue;
+}
