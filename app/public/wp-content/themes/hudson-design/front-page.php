@@ -61,18 +61,19 @@
 
 </div>
 </div>
-<div class="container mt-5 mb-5 pl-3 pr-3" id="about">
+<div class="container mt-5" id="about">
     <h2 class="text-center"><?php the_title(); ?></h2>
+    <?php echo get_the_post_thumbnail('','', array('class' => 'img-fluid mobile-about-img')); ?>
 <div class="media">
-  <?php echo get_the_post_thumbnail( '', '', array('class' => 'd-flex mr-3 mt-0')); ?>
+  <?php echo get_the_post_thumbnail( '', '', array('class' => 'mr-3 mt-0 desktop-about-img')); ?>
   <div class="media-body mb-5">
     <p><?php the_content(); ?></p>
   </div>
 </div>
-<div class="container contact-form" id="contact">
+</div>
+<div class="container text-center contact-form" id="contact">
     <h2 class="text-center">Get in touch</h2>
     <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form"]' ); ?>
-</div>
 </div>
 <?php
 get_template_part('template-parts/footer-copywright'); 

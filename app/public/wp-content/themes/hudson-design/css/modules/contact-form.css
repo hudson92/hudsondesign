@@ -1,3 +1,22 @@
+.mobile-about-img {
+	margin: 0 auto;
+	display: block;
+}
+
+.desktop-about-img {
+	display: none;
+}
+
+@media screen and (min-width: 680px){
+	.mobile-about-img {
+		display: none;
+	}
+	.desktop-about-img {
+		display: flex;
+	}
+}
+
+
 input, .wpcf7-textarea {
 	border: 1px solid $light-blue;
 	padding: 0.5rem;
@@ -41,9 +60,11 @@ div .wpcf7-validation-errors {
 	padding: .5rem 1.5rem;
 	cursor: pointer;
 	border: none;
+	transition: 0.2s;
 }
 
 .wpcf7-submit:hover {
 	background-color: $light-blue;
+	transition: 0.4s;
 
 }

@@ -1,0 +1,13 @@
+.content-feed {
+	border-bottom: 1px solid $black;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+
+.content-feed-link {
+	color: $dark-blue;
+}
+
+.content-feed-link:hover {
+	text-decoration: none;
+}

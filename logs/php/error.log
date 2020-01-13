@@ -281,3 +281,14 @@ Stack trace:
   thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 34
 [10-Jan-2020 20:54:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 58
 [10-Jan-2020 20:54:52 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 20
+[13-Jan-2020 22:04:12 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php on line 67
+[13-Jan-2020 22:32:59 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 13
+[13-Jan-2020 22:33:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_excertp() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php:13
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 13
+[13-Jan-2020 22:40:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 18
+[13-Jan-2020 22:40:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 18

@@ -25,19 +25,19 @@
 <?php $aboutMe = get_post( 8 );?>
 
   <h2 class="mt-0 text-center"><?php echo get_the_title( $aboutMe ); ?></h2>
+  <?php echo get_the_post_thumbnail($aboutMe, '', array('class' => 'mobile-about-img')); ?>
 <div class="media">
-  <?php echo get_the_post_thumbnail($aboutMe, '', array('class' => 'd-flex mr-3')); ?>
+  <?php echo get_the_post_thumbnail($aboutMe, '', array('class' => 'mr-3 desktop-about-img')); ?>
   <div class="media-body mb-5">
     <?php echo $aboutMe->post_content; ?>
-    <?php wp_reset_postdata(); ?>
   </div>
 </div>
-
-<div class="container contact-form" id="contact">
+</div>
+<div class="container text-center contact-form" id="contact">
     <h2 class="text-center">Get in touch</h2>
     <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form"]' ); ?>
 </div>
-</div>
+
 <?php
 get_template_part('template-parts/footer-copywright'); 
 wp_footer(); 

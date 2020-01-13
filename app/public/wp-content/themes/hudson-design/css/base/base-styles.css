@@ -68,12 +68,12 @@ hr {
 }
 
 .btn-primary {
-	background-color: $light-blue;
+	background-color: $dark-blue;
 	border: none;
 }
 
 .btn-primary:hover {
-	background-color: $dark-blue;
+	background-color: $light-blue;
 }
 
 .section-title {
