@@ -292,3 +292,158 @@ Stack trace:
   thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 13
 [13-Jan-2020 22:40:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 18
 [13-Jan-2020 22:40:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/index.php on line 18
+[15-Jan-2020 21:41:52 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/class-wp-block-type-registry.php:166
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/script-loader.php(2872): WP_Block_Type_Registry::get_instance()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/class-wp-hook.php(288): wp_enqueue_registered_block_scripts_and_styles('')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/script-loader.php(2856): do_action('enqueue_block_a...')
+#5 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/class-wp-hook.php(288): wp_common_block_scripts_and_styles('')
+#6 /Users/samhudson/Local Sites/hudson-design/app/public in /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/class-wp-block-type-registry.php on line 166
+[15-Jan-2020 21:50:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:50:32 UTC] PHP Stack trace:
+[15-Jan-2020 21:50:32 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:50:32 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:50:32 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:50:32 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:51:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:51:25 UTC] PHP Stack trace:
+[15-Jan-2020 21:51:25 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:51:25 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:51:25 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:51:25 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:51:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:51:36 UTC] PHP Stack trace:
+[15-Jan-2020 21:51:36 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:51:36 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:51:36 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:51:36 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:52:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:52:35 UTC] PHP Stack trace:
+[15-Jan-2020 21:52:35 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:52:35 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:52:35 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:52:35 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:54:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:54:47 UTC] PHP Stack trace:
+[15-Jan-2020 21:54:47 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:54:47 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:54:47 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:54:47 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:55:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:55:04 UTC] PHP Stack trace:
+[15-Jan-2020 21:55:04 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:55:04 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:55:04 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:55:04 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:55:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:55:41 UTC] PHP Stack trace:
+[15-Jan-2020 21:55:41 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:55:41 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:55:41 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:55:41 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:57:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:57:16 UTC] PHP Stack trace:
+[15-Jan-2020 21:57:16 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:57:16 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:57:16 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:57:16 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:57:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:57:21 UTC] PHP Stack trace:
+[15-Jan-2020 21:57:21 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:57:21 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:57:21 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:57:21 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:58:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:58:38 UTC] PHP Stack trace:
+[15-Jan-2020 21:58:38 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:58:38 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:58:38 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:58:38 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:58:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:58:41 UTC] PHP Stack trace:
+[15-Jan-2020 21:58:41 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:58:41 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:58:41 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:58:41 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 21:58:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 21:58:48 UTC] PHP Stack trace:
+[15-Jan-2020 21:58:48 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 21:58:48 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 21:58:48 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 21:58:48 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:00:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:00:37 UTC] PHP Stack trace:
+[15-Jan-2020 22:00:37 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:00:37 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:00:37 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:00:37 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:02:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:02:27 UTC] PHP Stack trace:
+[15-Jan-2020 22:02:27 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:02:27 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:02:27 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:02:27 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:06:54 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:07:14 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:07:46 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:08:13 UTC] PHP Warning:  Illegal string offset 'url' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:08:13 UTC] PHP Stack trace:
+[15-Jan-2020 22:08:13 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:08:13 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:08:13 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:08:13 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:08:26 UTC] PHP Warning:  Illegal string offset 'url' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:08:26 UTC] PHP Stack trace:
+[15-Jan-2020 22:08:26 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:08:26 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:08:26 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:08:26 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:08:28 UTC] PHP Warning:  Illegal string offset 'url' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:08:28 UTC] PHP Stack trace:
+[15-Jan-2020 22:08:28 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:08:28 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:08:28 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:08:28 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:15:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 29
+[15-Jan-2020 22:15:42 UTC] PHP Stack trace:
+[15-Jan-2020 22:15:42 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:15:42 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:15:42 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:15:42 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:15:55 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 33
+[15-Jan-2020 22:16:09 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 33
+[15-Jan-2020 22:16:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 29
+[15-Jan-2020 22:16:11 UTC] PHP Stack trace:
+[15-Jan-2020 22:16:11 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:16:11 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:16:11 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:16:11 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:19:07 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 33
+[15-Jan-2020 22:28:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 29
+[15-Jan-2020 22:28:14 UTC] PHP Stack trace:
+[15-Jan-2020 22:28:14 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:28:14 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:28:14 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:28:14 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:42:39 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 33
+[15-Jan-2020 22:56:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 26
+[15-Jan-2020 22:56:04 UTC] PHP Stack trace:
+[15-Jan-2020 22:56:04 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 22:56:04 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 22:56:04 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 22:56:04 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[15-Jan-2020 22:57:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_images() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php:28
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 28
+[15-Jan-2020 23:11:08 UTC] PHP Fatal error:  Cannot use [] for reading in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 23
+[15-Jan-2020 23:11:08 UTC] PHP Stack trace:
+[15-Jan-2020 23:11:08 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[15-Jan-2020 23:11:08 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[15-Jan-2020 23:11:08 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[15-Jan-2020 23:11:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 58
