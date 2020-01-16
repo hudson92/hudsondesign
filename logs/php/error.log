@@ -447,3 +447,54 @@ Stack trace:
 [15-Jan-2020 23:11:08 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
 [15-Jan-2020 23:11:08 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
 [15-Jan-2020 23:11:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 58
+[16-Jan-2020 22:06:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 61
+[16-Jan-2020 22:06:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 61
+[16-Jan-2020 22:06:45 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 98
+[16-Jan-2020 22:06:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 98
+[16-Jan-2020 22:07:10 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 97
+[16-Jan-2020 22:08:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 87
+[16-Jan-2020 22:09:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 72
+[16-Jan-2020 22:11:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 22
+[16-Jan-2020 22:11:22 UTC] PHP Stack trace:
+[16-Jan-2020 22:11:22 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[16-Jan-2020 22:11:22 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[16-Jan-2020 22:11:22 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[16-Jan-2020 22:11:22 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[16-Jan-2020 22:11:34 UTC] PHP Warning:  Illegal string offset 'url' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 23
+[16-Jan-2020 22:11:34 UTC] PHP Stack trace:
+[16-Jan-2020 22:11:34 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[16-Jan-2020 22:11:34 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[16-Jan-2020 22:11:34 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[16-Jan-2020 22:11:34 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[16-Jan-2020 22:11:34 UTC] PHP Warning:  Illegal string offset 'sizes' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 24
+[16-Jan-2020 22:11:34 UTC] PHP Stack trace:
+[16-Jan-2020 22:11:34 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[16-Jan-2020 22:11:34 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[16-Jan-2020 22:11:34 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[16-Jan-2020 22:11:34 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[16-Jan-2020 22:11:34 UTC] PHP Warning:  Illegal string offset 'thumbnail' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 24
+[16-Jan-2020 22:11:34 UTC] PHP Stack trace:
+[16-Jan-2020 22:11:34 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[16-Jan-2020 22:11:34 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[16-Jan-2020 22:11:34 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[16-Jan-2020 22:11:34 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[16-Jan-2020 22:11:34 UTC] PHP Warning:  Illegal string offset 'alt' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 24
+[16-Jan-2020 22:11:34 UTC] PHP Stack trace:
+[16-Jan-2020 22:11:34 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[16-Jan-2020 22:11:34 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[16-Jan-2020 22:11:34 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[16-Jan-2020 22:11:34 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[16-Jan-2020 22:16:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 25
+[16-Jan-2020 22:24:39 UTC] PHP Warning:  Illegal string offset 'url' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 24
+[16-Jan-2020 22:24:39 UTC] PHP Stack trace:
+[16-Jan-2020 22:24:39 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[16-Jan-2020 22:24:39 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[16-Jan-2020 22:24:39 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[16-Jan-2020 22:24:39 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[16-Jan-2020 22:29:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_images() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php:24
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#3 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 24

@@ -13,47 +13,44 @@
       </div>
 </header>
 <div class="container-fluid mt-1 mb-5">
-    </div>    
-    <div class="container mb-5">
+  <div class="container mb-5">
       <p><?php the_content(); ?></p>
 
-      <?php
+     
 
-        $slideImages = get_field('slides');
 
-        if ($slideImages) {
-          echo '<ul>';
-          foreach((array)$slideImages as $images) { ?>
+<?php
+    //Get the images ids from the post_metadata
+    $images = acf_photo_gallery('gallery_images', $post->ID);
+    //Check if return array has anything in it
+    if( count($images) ):
+        //Cool, we got some data so now let's loop over it
+        foreach($images as $image):
+            $id = $image['id']; // The attachment id of the media
+            $title = $image['title']; //The title
+            $caption= $image['caption']; //The caption
+            $full_image_url= $image['full_image_url']; //Full size image url
+            $full_image_url = acf_photo_gallery_resize_image($full_image_url, 262, 160); //Resized size to 262px width by 160px height image url
+            $thumbnail_image_url= $image['thumbnail_image_url']; //Get the thumbnail size image url 150px by 150px
+            $url= $image['url']; //Goto any link when clicked
+            $target= $image['target']; //Open normal or new tab
+?>
 
-            <?php echo wp_get_attachment_image($images); ?>
 
-          <?php }
-          echo '</ul>';
-        }
+    <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+      
+      <div class="carousel-inner">
 
-      ?>
-<!--
-  <?php 
-    $images = get_field('slides');
-    $size = 'full';
-    if( $images ): ?>
+        <div class="carousel-item <?php echo $image->count >= 1 ? '' : 'active'; ?>">
+          <img src="<?php echo $full_image_url; ?>" class="" />
+        </div>
 
-  <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
-  
-    <?php foreach((array) $images as $image_id): ?>
-
-  <div class="carousel-inner">
-
-  
-    <div class="carousel-item active <?php echo $sliderPost->current_post >= 1 ? '' : 'active'; ?>">
-      <?php echo wp_get_attachment_image( $image_id, $size, array('class' => 'd-block w-100')); ?>
+      </div>
     </div>
-  <?php endforeach; ?>
-<?php endif; ?>
-</div>
-</div>
-!-->
-</div>
+
+    <?php endforeach; endif; ?>
+
+  </div>
 	<?php } wp_reset_postdata(); ?>
 </div>
 <hr>
@@ -79,15 +76,5 @@
 get_template_part('template-parts/footer-copywright'); 
 wp_footer(); 
 ?>  
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
- <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slideshow').slick({
-        setting-name: setting-value
-      });
-    });
-  </script>
 </body>
 </html>

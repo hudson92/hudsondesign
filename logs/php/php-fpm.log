@@ -39,3 +39,6 @@
 [15-Jan-2020 16:18:16] NOTICE: Terminating ...
 [15-Jan-2020 16:18:16] NOTICE: Terminating ...
 [15-Jan-2020 16:18:16] NOTICE: exiting, bye-bye!
+[16-Jan-2020 14:47:42] NOTICE: fpm is running, pid 30297
+[16-Jan-2020 14:47:42] NOTICE: ready to handle connections
+[16-Jan-2020 15:55:02] WARNING: [pool www] child 30325 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"

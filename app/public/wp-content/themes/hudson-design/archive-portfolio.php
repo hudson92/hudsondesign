@@ -4,8 +4,8 @@
 <header>
       <div class="jumbotron jumbotron-fluid mt-5">
         <div class="container">
-          <h1 class="display-3">Blog</h1>
-          <p class="lead white">Check out my latest blog posts</p>
+          <h1 class="display-3">Portfolio</h1>
+          <p class="lead white">Check out my previous work below.</p>
         </div>
       </div>
 </header>
