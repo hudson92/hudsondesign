@@ -115,6 +115,10 @@ margin-left: 1rem;
 	margin-right: 1rem;
 }
 
+.navbar-nav li{
+	font-size: 1.2rem;
+}
+
 .navbar {
 	background-color: #2B4251;
 }
@@ -213,4 +217,8 @@ div .wpcf7-validation-errors {
 
 .content-feed-link:hover {
 	text-decoration: none;
+}
+
+.search-trigger {
+	color: #91B3BC;
 }

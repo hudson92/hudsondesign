@@ -17,8 +17,8 @@
       <p><?php the_content(); ?></p>
 
      
-
-
+  </div>
+</div>
 <?php
     //Get the images ids from the post_metadata
     $images = acf_photo_gallery('gallery_images', $post->ID);
@@ -27,32 +27,24 @@
         //Cool, we got some data so now let's loop over it
         foreach($images as $image):
             $id = $image['id']; // The attachment id of the media
-            $title = $image['title']; //The title
             $caption= $image['caption']; //The caption
             $full_image_url= $image['full_image_url']; //Full size image url
-            $full_image_url = acf_photo_gallery_resize_image($full_image_url, 262, 160); //Resized size to 262px width by 160px height image url
             $thumbnail_image_url= $image['thumbnail_image_url']; //Get the thumbnail size image url 150px by 150px
-            $url= $image['url']; //Goto any link when clicked
-            $target= $image['target']; //Open normal or new tab
 ?>
 
-
-    <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+<div class="container-fluid pt-2 pb-2 bg-light">
       
-      <div class="carousel-inner">
-
-        <div class="carousel-item <?php echo $image->count >= 1 ? '' : 'active'; ?>">
-          <img src="<?php echo $full_image_url; ?>" class="" />
+        <div class="slide-image_container text-center">
+          <img class="slide-image" style="max-width: 100%;" src="<?php echo $full_image_url; ?>" class="" />
+          <div class="slide-image_caption"><span>Dummy text goes here</span></div>
         </div>
 
-      </div>
-    </div>
+</div>
 
     <?php endforeach; endif; ?>
 
-  </div>
+
 	<?php } wp_reset_postdata(); ?>
-</div>
 <hr>
 <div class="container mt-5 mb-5 pl-5 pr-5" id="about">
 

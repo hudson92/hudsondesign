@@ -498,3 +498,25 @@ Stack trace:
 #2 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
 #3 {main}
   thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php on line 24
+[17-Jan-2020 22:20:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_site_title() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/header.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php(722): require_once()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php(671): load_template('/Users/samhudso...', true)
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php(2): get_header()
+#4 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(98): include('/Users/samhudso...')
+#5 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#6 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#7 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/header.php on line 4
+[17-Jan-2020 22:20:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_site_title() in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/header.php:4
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php(722): require_once()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php(671): load_template('/Users/samhudso...', true)
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/single.php(2): get_header()
+#4 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(98): include('/Users/samhudso...')
+#5 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#6 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
+#7 {main}
+  thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/header.php on line 4

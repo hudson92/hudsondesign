@@ -45,3 +45,9 @@
 [16-Jan-2020 16:12:59] NOTICE: Terminating ...
 [16-Jan-2020 16:12:59] NOTICE: Terminating ...
 [16-Jan-2020 16:12:59] NOTICE: exiting, bye-bye!
+[17-Jan-2020 14:58:55] NOTICE: fpm is running, pid 9099
+[17-Jan-2020 14:58:55] NOTICE: ready to handle connections
+[17-Jan-2020 15:03:52] WARNING: [pool www] child 9127 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[17-Jan-2020 15:06:06] WARNING: [pool www] child 9127 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[17-Jan-2020 15:06:13] WARNING: [pool www] child 9126 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[17-Jan-2020 15:06:52] WARNING: [pool www] child 9127 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
