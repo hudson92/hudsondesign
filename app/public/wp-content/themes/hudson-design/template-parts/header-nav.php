@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+<nav class="navbar  navbar-dark fixed-top">
     <a class="navbar-brand" href="<?php echo site_url('/'); ?>"><img src="<?php echo get_theme_file_uri('/images/HDWtranspsmall.png') ?>" height="55px" /></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,8 +15,9 @@
           ));
 
 
-          ?>  
-          <div class="site-search">
-            <span id="navbarsExampleDefault" class="search-trigger js-search-trigger collapse navbar-collapse"><i class="fa fa-search" aria-hidden="true"></i></span>
-          </div>
+     
+     ?>  
+     <div id="navbarsExampleDefault" class="collapse navbar-collapse">
+    <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span></div>
 </nav>
+

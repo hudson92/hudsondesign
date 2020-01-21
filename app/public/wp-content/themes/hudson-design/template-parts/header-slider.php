@@ -21,9 +21,13 @@
           <p><?php the_excerpt(); ?></p>
         </div>
     </div>
-    <?php } wp_reset_postdata();
+    <?php }
     ?>
   </div>
+
+  <?php 
+    if($sliderPost->post_count > 1) {
+  ?>
 
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -34,5 +38,13 @@
     <span class="sr-only">Next</span>
   </a>
 
+  <?php }
+  else {
+
+  }
+  ?>
 </div>
 </header>
+
+<?php wp_reset_postdata(); ?>
+

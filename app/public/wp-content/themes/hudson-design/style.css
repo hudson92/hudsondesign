@@ -123,6 +123,11 @@ margin-left: 1rem;
 	background-color: #2B4251;
 }
 
+.navbar-toggler {
+	-webkit-box-pack: end;
+	        justify-content: flex-end;
+}
+
 .navbar-nav a:hover {
 	color: #f0f0f0;
 	text-decoration: none;
@@ -217,8 +222,4 @@ div .wpcf7-validation-errors {
 
 .content-feed-link:hover {
 	text-decoration: none;
-}
-
-.search-trigger {
-	color: #91B3BC;
 }

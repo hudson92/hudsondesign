@@ -520,3 +520,78 @@ Stack trace:
 #6 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/samhudso...')
 #7 {main}
   thrown in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/header.php on line 4
+[21-Jan-2020 21:25:45 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 40
+[21-Jan-2020 21:25:45 UTC] PHP Stack trace:
+[21-Jan-2020 21:25:45 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[21-Jan-2020 21:25:45 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[21-Jan-2020 21:25:45 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[21-Jan-2020 21:25:45 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[21-Jan-2020 21:25:45 UTC] PHP   5. get_template_part() /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php:4
+[21-Jan-2020 21:25:45 UTC] PHP   6. locate_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php:168
+[21-Jan-2020 21:25:45 UTC] PHP   7. load_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:671
+[21-Jan-2020 21:25:45 UTC] PHP   8. require() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:724
+[21-Jan-2020 21:26:52 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 42
+[21-Jan-2020 21:26:52 UTC] PHP Stack trace:
+[21-Jan-2020 21:26:52 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[21-Jan-2020 21:26:52 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[21-Jan-2020 21:26:52 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[21-Jan-2020 21:26:52 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[21-Jan-2020 21:26:52 UTC] PHP   5. get_template_part() /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php:4
+[21-Jan-2020 21:26:52 UTC] PHP   6. locate_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php:168
+[21-Jan-2020 21:26:52 UTC] PHP   7. load_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:671
+[21-Jan-2020 21:26:52 UTC] PHP   8. require() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:724
+[21-Jan-2020 21:26:55 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 42
+[21-Jan-2020 21:26:55 UTC] PHP Stack trace:
+[21-Jan-2020 21:26:55 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[21-Jan-2020 21:26:55 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[21-Jan-2020 21:26:55 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[21-Jan-2020 21:26:55 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[21-Jan-2020 21:26:55 UTC] PHP   5. get_template_part() /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php:4
+[21-Jan-2020 21:26:55 UTC] PHP   6. locate_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php:168
+[21-Jan-2020 21:26:55 UTC] PHP   7. load_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:671
+[21-Jan-2020 21:26:55 UTC] PHP   8. require() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:724
+[21-Jan-2020 21:26:59 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php:42
+Stack trace:
+#0 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php(724): require()
+#1 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php(671): load_template('/Users/samhudso...', false)
+#2 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php(4): get_template_part('template-parts/...')
+#4 /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php(98): include('/Users/samhudso...')
+#5 /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php(19): require_once('/Users/samhudso...')
+#6 /Users/samhudson/Local Sites/hudson-design/app/public/index.php(17): require('/Users/sa in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 42
+[21-Jan-2020 21:27:28 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 42
+[21-Jan-2020 21:28:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 42
+[21-Jan-2020 21:29:26 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 42
+[21-Jan-2020 21:29:26 UTC] PHP Stack trace:
+[21-Jan-2020 21:29:26 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[21-Jan-2020 21:29:26 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[21-Jan-2020 21:29:26 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[21-Jan-2020 21:29:26 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[21-Jan-2020 21:29:26 UTC] PHP   5. get_template_part() /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php:4
+[21-Jan-2020 21:29:26 UTC] PHP   6. locate_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php:168
+[21-Jan-2020 21:29:26 UTC] PHP   7. load_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:671
+[21-Jan-2020 21:29:26 UTC] PHP   8. require() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:724
+[21-Jan-2020 21:29:35 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 42
+[21-Jan-2020 21:29:35 UTC] PHP Stack trace:
+[21-Jan-2020 21:29:35 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[21-Jan-2020 21:29:35 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[21-Jan-2020 21:29:35 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[21-Jan-2020 21:29:35 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[21-Jan-2020 21:29:35 UTC] PHP   5. get_template_part() /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php:4
+[21-Jan-2020 21:29:35 UTC] PHP   6. locate_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php:168
+[21-Jan-2020 21:29:35 UTC] PHP   7. load_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:671
+[21-Jan-2020 21:29:35 UTC] PHP   8. require() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:724
+[21-Jan-2020 21:31:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 41
+[21-Jan-2020 21:31:15 UTC] PHP Stack trace:
+[21-Jan-2020 21:31:15 UTC] PHP   1. {main}() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:0
+[21-Jan-2020 21:31:15 UTC] PHP   2. require() /Users/samhudson/Local Sites/hudson-design/app/public/index.php:17
+[21-Jan-2020 21:31:15 UTC] PHP   3. require_once() /Users/samhudson/Local Sites/hudson-design/app/public/wp-blog-header.php:19
+[21-Jan-2020 21:31:15 UTC] PHP   4. include() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template-loader.php:98
+[21-Jan-2020 21:31:15 UTC] PHP   5. get_template_part() /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/front-page.php:4
+[21-Jan-2020 21:31:15 UTC] PHP   6. locate_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/general-template.php:168
+[21-Jan-2020 21:31:15 UTC] PHP   7. load_template() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:671
+[21-Jan-2020 21:31:15 UTC] PHP   8. require() /Users/samhudson/Local Sites/hudson-design/app/public/wp-includes/template.php:724
+[21-Jan-2020 21:34:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 43
+[21-Jan-2020 21:35:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 44
+[21-Jan-2020 21:35:53 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 45
+[21-Jan-2020 21:36:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 49
