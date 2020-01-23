@@ -17,8 +17,8 @@
     <div class="carousel-item <?php echo $sliderPost->current_post >= 1 ? '' : 'active'; ?>">
       <?php echo get_the_post_thumbnail($post_id, 'imageSlider', array('class' => 'd-block w-100')); ?>
         <div class="carousel-caption d-none d-md-block">
-          <h3><?php the_title(); ?></h3>
-          <p><?php the_excerpt(); ?></p>
+          <h2><?php the_title(); ?></h3>
+          <?php the_excerpt(array('class' => 'white')); ?>
         </div>
     </div>
     <?php }

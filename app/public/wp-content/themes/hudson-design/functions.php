@@ -19,7 +19,7 @@ function hudsondesign_features() {
 	add_theme_support('title-tag');
 	add_image_size('skillThumb' , 250, 200, true);
 	add_image_size('imageSlider', 1500, 500, true);
-	add_image_size('imagePortfolio', 355, 230, true);
+	add_image_size('imagePortfolio', 370, 280, true);
 	add_theme_support('post-thumbnails');
 }
 

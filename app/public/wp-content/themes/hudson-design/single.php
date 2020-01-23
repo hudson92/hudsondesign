@@ -32,11 +32,11 @@
             $thumbnail_image_url= $image['thumbnail_image_url']; //Get the thumbnail size image url 150px by 150px
 ?>
 
-<div class="container-fluid pt-2 pb-2 bg-light">
+<div class="container-fluid pt-3 pb-2 bg-light">
       
-        <div class="slide-image_container text-center">
-          <img class="slide-image" style="max-width: 100%;" src="<?php echo $full_image_url; ?>" class="" />
-          <div class="slide-image_caption"><span>Dummy text goes here</span></div>
+        <div class="gallery-image_container text-center">
+          <img class="gallery-image" src="<?php echo $full_image_url; ?>" class="" />
+          <div class="gallery-image_caption"><span>Dummy text goes here</span></div>
         </div>
 
 </div>

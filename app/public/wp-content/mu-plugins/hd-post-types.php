@@ -21,7 +21,7 @@ function hd_post_types() {
 		'has_archive' => false,
 		'public' => true,
 		'labels' => array(
-			'name' => 'Image slider',
+			'name' => 'Homepage slider',
 			'add_new_item' => 'Add New Slide',
 			'all_items' => 'Image Slides',
 		),

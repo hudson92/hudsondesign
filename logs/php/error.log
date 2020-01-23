@@ -595,3 +595,5 @@ Stack trace:
 [21-Jan-2020 21:35:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 44
 [21-Jan-2020 21:35:53 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 45
 [21-Jan-2020 21:36:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 49
+[23-Jan-2020 21:08:27 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 22
+[23-Jan-2020 21:08:29 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 22

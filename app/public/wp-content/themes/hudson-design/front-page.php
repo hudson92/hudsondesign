@@ -19,7 +19,7 @@
 			$skills->the_post();?>
 		
 		<div class="col-md-3 card skills-card border-0">
-		<div class="card-img-top"><?php the_post_thumbnail();?></div>
+		<div class="card-img-top mb-2 skills_image"><?php the_post_thumbnail('');?></div>
 		<div class="card-body p-1">
 		<h3 style="text-align: center;"><?php the_title(); ?></h3>
 		<p><?php the_excerpt(); ?></p>
@@ -36,7 +36,7 @@
 
 	<h2 class="text-center section-title">Portfolio</h2>
 
-<div class="d-flex justify-content-center row">
+<div class="d-flex justify-content-center row ml-4 mr-4">
 
 	<?php $portfolio = new WP_Query(array(
 		'posts_per_page' => -1,
@@ -48,7 +48,7 @@
 		while ($portfolio->have_posts()) {
 			$portfolio->the_post();?>
 
-	<div class="col-md-3 card portfolio-card p-0 m-0 border-0 rounded-0">
+	<div class="col-lg-4 col-md-5 col-sm-6 col-xs-7 card portfolio-card p-0 m-0 border-0 rounded-0">
 		<?php echo get_the_post_thumbnail($post_id, 'imagePortfolio', array('class' => 'card-img')); ?>
 			<div class="card-img-overlay hide pt-4">
 			<h3><?php the_title(); ?></h3>
@@ -63,9 +63,9 @@
 </div>
 <div class="container mt-5" id="about">
     <h2 class="text-center"><?php the_title(); ?></h2>
-    <?php echo get_the_post_thumbnail('','', array('class' => 'img-fluid mobile-about-img')); ?>
+    <?php echo get_the_post_thumbnail('','thumb', array('class' => 'img-fluid mobile-about-img')); ?>
 <div class="media">
-  <?php echo get_the_post_thumbnail( '', '', array('class' => 'mr-3 mt-0 desktop-about-img')); ?>
+  <?php echo get_the_post_thumbnail( '', 'imagePortfolio', array('class' => 'mr-3 mt-0 desktop-about-img')); ?>
   <div class="media-body mb-5">
     <p><?php the_content(); ?></p>
   </div>

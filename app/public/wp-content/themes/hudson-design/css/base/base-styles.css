@@ -31,6 +31,8 @@ font-family: Amiko, Helvetica, sans-serif;
 font-size: 1.3rem;
 }
 
+
+
 h4 {
 color: $grey;
 font-family: Amiko, Helvetica, sans-serif;
@@ -78,4 +80,20 @@ hr {
 
 .section-title {
 	margin-bottom: 1.5rem;
+}
+
+.carousel-caption {
+background-color: rgba(0,0,0,0.3);
+left: 0;
+right: 0;
+}
+
+.carousel-caption h2 {
+	font-size: 2.5rem;
+	color: $light-blue;
+}
+
+.carousel-caption p {
+	color: #fff;
+	font-size: 1.2rem;
 }

@@ -10,6 +10,11 @@
 	opacity:0;
 }
 
+.portfolio-card img {
+	width:;
+	height: ;
+}
+
 .portfolio-card:hover .hide {
 opacity: 1;
 transition: 0.5s;
@@ -19,3 +24,11 @@ transition: 0.5s;
 	opacity: 0;
 	transition: 0.5s;
 }
+
+
+.gallery-image-container{
+	display: inline-block;
+	max-width: 30%;
+	float: left;
+}
+
