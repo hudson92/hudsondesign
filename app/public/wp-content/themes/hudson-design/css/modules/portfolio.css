@@ -12,17 +12,18 @@
 
 .portfolio-card img {
 	width:;
-	height: ;
+	max-height: 20rem
 }
 
 .portfolio-card:hover .hide {
 opacity: 1;
-transition: 0.5s;
+transition: 0.3s;
+background-color: #f0f0f0;
 }
 
 .portfolio-card:hover .card-img {
-	opacity: 0;
-	transition: 0.5s;
+opacity: 0;
+transition: 0.3s;
 }
 
 
@@ -31,4 +32,3 @@ transition: 0.5s;
 	max-width: 30%;
 	float: left;
 }
-

@@ -51,7 +51,7 @@ span .wpcf7-not-valid-tip {
 div .wpcf7-validation-errors {
 	border: 2px solid $dark-blue;
 	color: $dark-blue;
-	margin: 0;
+	margin-bottom: 1rem;
 }
 
 .wpcf7-submit {
@@ -61,6 +61,8 @@ div .wpcf7-validation-errors {
 	cursor: pointer;
 	border: none;
 	transition: 0.2s;
+	justify-content: center;
+	margin-left: 1rem;
 }
 
 .wpcf7-submit:hover {

@@ -1,6 +1,6 @@
 <header>
 
-    <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
     <?php
       $sliderPost = new WP_Query(array(
@@ -15,7 +15,7 @@
 
 
     <div class="carousel-item <?php echo $sliderPost->current_post >= 1 ? '' : 'active'; ?>">
-      <?php echo get_the_post_thumbnail($post_id, 'imageSlider', array('class' => 'd-block w-100')); ?>
+      <?php echo get_the_post_thumbnail($post_id, 'headlineBanner', array('class' => 'd-block w-100 h-100')); ?>
         <div class="carousel-caption d-none d-md-block">
           <h2><?php the_title(); ?></h3>
           <?php the_excerpt(array('class' => 'white')); ?>

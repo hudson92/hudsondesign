@@ -72,12 +72,6 @@ hr {
 	margin-bottom: 1.5rem;
 }
 
-.carousel-caption {
-background-color: rgba(0,0,0,0.3);
-left: 0;
-right: 0;
-}
-
 .carousel-caption h2 {
 	font-size: 2.5rem;
 	color: #91B3BC;
@@ -85,7 +79,8 @@ right: 0;
 
 .carousel-caption p {
 	color: #fff;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
+	font-weight: bold;
 }
 
 #portfolio {
@@ -102,19 +97,20 @@ right: 0;
 
 .portfolio-card img {
 	width:;
-	height: ;
+	max-height: 20rem
 }
 
 .portfolio-card:hover .hide {
 opacity: 1;
--webkit-transition: 0.5s;
-transition: 0.5s;
+-webkit-transition: 0.3s;
+transition: 0.3s;
+background-color: #f0f0f0;
 }
 
 .portfolio-card:hover .card-img {
-	opacity: 0;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
+opacity: 0;
+-webkit-transition: 0.3s;
+transition: 0.3s;
 }
 
 .gallery-image-container{
@@ -217,7 +213,7 @@ span .wpcf7-not-valid-tip {
 div .wpcf7-validation-errors {
 	border: 2px solid #5B7D87;
 	color: #5B7D87;
-	margin: 0;
+	margin-bottom: 1rem;
 }
 
 .wpcf7-submit {
@@ -228,6 +224,9 @@ div .wpcf7-validation-errors {
 	border: none;
 	-webkit-transition: 0.2s;
 	transition: 0.2s;
+	-webkit-box-pack: center;
+	        justify-content: center;
+	margin-left: 1rem;
 }
 
 .wpcf7-submit:hover {

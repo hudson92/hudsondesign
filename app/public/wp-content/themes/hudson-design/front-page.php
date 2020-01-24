@@ -20,8 +20,8 @@
 		
 		<div class="col-md-3 card skills-card border-0">
 		<div class="card-img-top mb-2 skills_image"><?php the_post_thumbnail('');?></div>
-		<div class="card-body p-1">
-		<h3 style="text-align: center;"><?php the_title(); ?></h3>
+		<div class="card-body p-1 text-center">
+		<h3><?php the_title(); ?></h3>
 		<p><?php the_excerpt(); ?></p>
 		</div>
 		</div>
@@ -36,7 +36,7 @@
 
 	<h2 class="text-center section-title">Portfolio</h2>
 
-<div class="d-flex justify-content-center row ml-4 mr-4">
+<div class="d-flex justify-content-center row ml-1 mr-1">
 
 	<?php $portfolio = new WP_Query(array(
 		'posts_per_page' => -1,
@@ -48,8 +48,8 @@
 		while ($portfolio->have_posts()) {
 			$portfolio->the_post();?>
 
-	<div class="col-lg-4 col-md-5 col-sm-6 col-xs-7 card portfolio-card p-0 m-0 border-0 rounded-0">
-		<?php echo get_the_post_thumbnail($post_id, 'imagePortfolio', array('class' => 'card-img')); ?>
+	<div class="col-lg-4 col-md-6 col-sm-8 col-xs-10 card portfolio-card p-0 m-0 border-0 rounded-0">
+		<?php echo get_the_post_thumbnail($post_id, '', array('class' => 'card-img')); ?>
 			<div class="card-img-overlay hide pt-4">
 			<h3><?php the_title(); ?></h3>
 			<p><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
