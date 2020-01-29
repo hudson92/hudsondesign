@@ -14,18 +14,19 @@
 </header>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="<?php echo site_url('/blog') ?>">Portfolio</a></li>
+    <li class="breadcrumb-item"><a href="<?php echo site_url('/portfolio') ?>">Portfolio</a></li>
     <li class="breadcrumb-item active" aria-current="page"><?php echo the_title(); ?></li>
   </ol>
 </nav>
-<div class="container-fluid mt-1 mb-5">
-  <div class="container mb-5">
+<div class="container-fluid pt-3 mb-5">
+  <div class="row d-flex justify-content-center">
+    <div class="col-sm-10 col-md-6">
       <p><?php the_content(); ?></p>
 
      
   </div>
-</div>
-<?php
+      <div class="col-sm-10 col-md-6">
+  <?php
     //Get the images ids from the post_metadata
     $images = acf_photo_gallery('gallery_images', $post->ID);
     //Check if return array has anything in it
@@ -36,21 +37,24 @@
             $caption= $image['caption']; //The caption
             $full_image_url= $image['full_image_url']; //Full size image url
             $thumbnail_image_url= $image['thumbnail_image_url']; //Get the thumbnail size image url 150px by 150px
-?>
+    ?>
 
-<div class="container-fluid pt-3 pb-2 bg-light">
       
-        <div class="gallery-image_container text-center">
+        <div class="gallery-image_container text-center mb-2 d-inline">
+          <a href="<?php echo $full_image_url ?>" target="_new">
           <img class="gallery-image" src="<?php echo $full_image_url; ?>" class="" />
-          <div class="gallery-image_caption"><span>Dummy text goes here</span></div>
+        </a>
         </div>
 
-</div>
+   
 
     <?php endforeach; endif; ?>
 
+  </div>
+  <?php } wp_reset_postdata(); ?>
 
-	<?php } wp_reset_postdata(); ?>
+</div>
+</div>
 <hr>
 <div class="container mt-5 mb-5 pl-5 pr-5" id="about">
 

@@ -7,4 +7,6 @@ $white: #f0f0f0;
 
 .jumbotron {
 	background-color: $light-blue;
+	margin-bottom: 0px;
 }
+
