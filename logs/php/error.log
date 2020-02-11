@@ -602,3 +602,5 @@ Stack trace:
 [24-Jan-2020 22:24:34 UTC] PHP Parse error:  syntax error, unexpected 'the_excerpt' (T_STRING), expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 21
 [24-Jan-2020 22:25:27 UTC] PHP Parse error:  syntax error, unexpected 'the_excerpt' (T_STRING), expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 21
 [24-Jan-2020 22:25:30 UTC] PHP Parse error:  syntax error, unexpected 'the_excerpt' (T_STRING), expecting ',' or ';' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/template-parts/header-slider.php on line 21
+[11-Feb-2020 22:39:32 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 20
+[11-Feb-2020 22:39:45 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /Users/samhudson/Local Sites/hudson-design/app/public/wp-content/themes/hudson-design/functions.php on line 20

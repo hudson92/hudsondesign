@@ -10,4 +10,6 @@ margin-left: 1rem;
 .card-img-top img {
 	display: block;
 	margin: 0 auto;
+	width: 200px;
+	height: 100%;
 }

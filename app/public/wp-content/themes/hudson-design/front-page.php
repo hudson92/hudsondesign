@@ -6,7 +6,7 @@
 
 <div class="container-fluid mt-5 mb-5" id="skills">
 
-	<h2 class="text-center section-title">Skills</h2>
+	<h2 class="text-center section-title">Solutions</h2>
 
 <div class="d-flex justify-content-center row">
 	<?php 

@@ -17,7 +17,7 @@ function hudsondesign_features() {
 	register_nav_menu('headerLocationOne', 'Header Location One');
 	register_nav_menu('footerLocationOne', 'Footer Location One');
 	add_theme_support('title-tag');
-	add_image_size('skillThumb' , 65, 65, true);
+	add_image_size('skillThumb' , 300, 200);
 	add_image_size('imagePortfolio', 370, 280, true);
 	add_theme_support('post-thumbnails');
 	add_image_size('headlineBanner', 1500, 600, true);
